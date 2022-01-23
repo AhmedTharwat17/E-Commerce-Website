@@ -7,7 +7,7 @@ fetch("js/pro.json").then(function(e){
         document.querySelector(".main-product").innerHTML += "<div class = 'product'>" +
                                                         "<p>" + data[i].Type + "</p>"+
                                                         "<img src ='"+ data[i].imgMain +"'/>"+
-                                                        "<a href = '" + __dirname + data[i].pageUrl +"'>"+ "See More" +"</a>"+
+                                                        "<a dirname = '" + data[i].pageUrl +"'>"+ "See More" +"</a>"+
                                                         "</div>";
     }
 })
